@@ -53,6 +53,11 @@ main,
   margin: 0 auto;
 }
 
+main,
+.section {
+  scroll-margin-top: 88px;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -229,6 +234,11 @@ h1 {
   .nav-links {
     justify-content: flex-start;
     gap: 10px 14px;
+  }
+
+  main,
+  .section {
+    scroll-margin-top: 124px;
   }
 
   .hero {
